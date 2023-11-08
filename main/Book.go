@@ -13,7 +13,7 @@ func (m *MyBook) SetMybook(num int, name string) {
 }
 
 func (m *MyBook) ShowMyBook() {
-	fmt.Printf("My Book is %s,number is %d", m.name, m.num)
+	fmt.Printf("My Book is %s,number is %d\n", m.name, m.num)
 }
 
 func ShowMyName() {
