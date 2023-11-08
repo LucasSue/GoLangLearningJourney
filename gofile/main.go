@@ -7,5 +7,6 @@ func PrintSomeThing() {
 }
 
 func main() {
-	PrintSomeThing()
+	mybook := MyBook{"su", 10}
+	mybook.ShowMyBook()
 }

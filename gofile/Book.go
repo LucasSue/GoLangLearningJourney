@@ -19,8 +19,3 @@ func (m *MyBook) ShowMyBook() {
 func ShowMyName() {
 	fmt.Println("Lucas")
 }
-
-func main() {
-	mybook := MyBook{"su", 10}
-	mybook.ShowMyBook()
-}
