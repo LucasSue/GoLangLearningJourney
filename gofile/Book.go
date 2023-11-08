@@ -16,6 +16,10 @@ func (m *MyBook) ShowMyBook() {
 	fmt.Printf("My Book is %s,number is %d", m.name, m.num)
 }
 
+func ShowMyName() {
+	fmt.Println("Lucas")
+}
+
 func main() {
 	mybook := MyBook{"su", 10}
 	mybook.ShowMyBook()
